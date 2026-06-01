@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <title>Document</title>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Preconnect (melhora velocidade) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP (coloca defer pra não travar render) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
     
@@ -14,9 +25,9 @@
 <div class="body">
 <div class="container">
     <span class="badge">Disponível para trabalhos freelance</span> 
-    <h1 class="hero-title">Oi, eu sou o Gustavo. Sou Designer & Desenvolvedor.</h1>
-    <p class="description">Sou Gustavo Rocha, web designer e desenvolvedor no Brasil. Crio sites modernos, rápidos e funcionais.</p>
-        <a href="https://wa.me/5591993821577" target="_blank" class="cta-button">
+    <h1 class="hero-title">Oi, eu sou o Rafael. Sou Designer & Desenvolvedor.</h1>
+    <p class="description">Sou Rafael Andrade, web designer e desenvolvedor no Brasil. Crio sites modernos, rápidos e funcionais.</p>
+        <a href="https://wa.me/5591980590875" target="_blank" class="cta-button">
             Entre em contato          
             <span class="arrow">→</span>
         </a>
@@ -83,53 +94,123 @@ gsap.to(".badge::before", {
       <h1>Últimos Trabalhos</h1>
   </div>
 
-
 <div class="card-grid">
 
-    <a href="https://clinica-est-tica-green.vercel.app/" target="_blank" class="card-link">
-        <div class="card">
-            <div class="card-image card-1">
-                <img src="img/Captura de tela 2025-12-25 195755.png" alt="Halo Digital Agency">
-                <div class="card-overlay">
-                    <div class="card-overlay-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="card-content">
-                <h3 class="card-title">Site para Clínica de Estética</h3>
-                <p class="card-description">
-                   Site moderno e elegante, criado para valorizar a experiência visual e destacar serviços estéticos. Design clean, responsivo e otimizado.
-                </p>
-            </div>
+  <a href="https://dentista11.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-2">
+        <img src="img/WhatsApp Image 2026-04-13 at 10.18.34.webp" alt="Dentista" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
         </div>
-    </a>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Dentista</h3>
+        <p class="card-description">Landing page desenvolvida para dentista, com foco em confiança, credibilidade e bem-estar do paciente.</p>
+      </div>
+    </div>
+  </a>
 
-    <a href="https://advocacia3.vercel.app/" target="_blank" class="card-link">
-        <div class="card">
-            <div class="card-image card-2">
-                <img src="img/Captura de tela 2026-01-25 225018.png" alt="HelloDigital.xyz">
-                <div class="card-overlay">
-                    <div class="card-overlay-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="card-content">
-                <h3 class="card-title">Site para Advocacia</h3>
-                <p class="card-description">
-                Desenvolvimento de um site profissional focado em credibilidade, clareza e confiança. Layout sóbrio, navegação intuitiva e estrutura pensada.
-                </p>
-            </div>
+  <a href="https://nutricionista-eta.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-2">
+        <img src="img/WhatsApp Image 2026-04-13 at 10.09.16.webp" alt="Nutricionista" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
         </div>
-    </a>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Nutricionista</h3>
+        <p class="card-description">Landing page desenvolvida para nutricionista, com foco em saúde, bem-estar e conexão com o paciente.</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://psic-loga-m7cm.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-2">
+        <img src="img/WhatsApp Image 2026-03-23 at 17.58.13.webp" alt="Psicóloga" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Psicóloga</h3>
+        <p class="card-description">Landing page desenvolvida para psicóloga, com foco em acolhimento, confiança e conexão com o paciente.</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://medico-ruddy.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-2">
+        <img src="img/WhatsApp Image medico.webp" alt="Médico" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Médico</h3>
+        <p class="card-description">Landing page desenvolvida para profissional da área médica, com foco em credibilidade, clareza e conversão.</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://clinica-est-tica-green.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-1">
+        <img src="img/Captura de tela 2025-12-25 195755.webp" alt="Clínica de Estética" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Clínica de Estética</h3>
+        <p class="card-description">Site moderno e elegante, criado para valorizar a experiência visual e destacar serviços estéticos. Design clean, responsivo e otimizado.</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://advogado-4i43.vercel.app/" target="_blank" class="card-link">
+    <div class="card">
+      <div class="card-image card-2">
+        <img src="img/image.webp" alt="Advocacia" loading="lazy">
+        <div class="card-overlay">
+          <div class="card-overlay-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Site para Advocacia</h3>
+        <p class="card-description">Desenvolvimento de um site profissional focado em credibilidade, clareza e confiança. Layout sóbrio, navegação intuitiva e estrutura pensada.</p>
+      </div>
+    </div>
+  </a>
 
 </div>
-
 
 
 </div>
@@ -267,7 +348,7 @@ gsap.to(".card-image img", {
         <span class="service-tag">Especialidades</span>
         <h1>Uma visão completa do que eu faço e como entrego</h1>
         <p>Desenvolvo soluções digitais focadas em performance, design limpo e experiência do usuário, unindo estratégia, tecnologia e atenção aos detalhes em cada projeto.</p>
-<a href="https://wa.me/5591993821577" target="_blank" class="cta-button2">Entrar em contato</a>    
+<a href="https://wa.me/5591980590875" target="_blank" class="cta-button2">Entrar em contato</a>    
 </div>
 
     <div class="cards-grid2">
@@ -678,7 +759,7 @@ gsap.to(".card3", {
         <p class="hero-subtitle6">
  Estou disponível para novos projetos e oportunidades profissionais. Se você tem uma ideia, precisa de um site, aplicação ou solução digital, entre em contato para conversarmos e entender como posso ajudar.        
  </p>
-       <a href="https://wa.me/5591993821577" target="_blank" class="cta-button">
+       <a href="https://wa.me/5591980590875" target="_blank" class="cta-button">
             Entre em contato          
             <span class="arrow">→</span>
         </a>
@@ -691,7 +772,7 @@ gsap.to(".card3", {
 
 
    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/5591993821577" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/5591980590875" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
         </svg>
